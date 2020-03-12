@@ -8,7 +8,7 @@ public class PrimeNnmber {
 		Scanner s = new Scanner(System.in);
 		int num = s.nextInt();
 		int temp = 0;
-		for (int i = 2; i <= num; i++) {
+		for (int i = 2; i <= num-1; i++) {
 
 			if (num % i == 0) {
 				temp = temp + 1;

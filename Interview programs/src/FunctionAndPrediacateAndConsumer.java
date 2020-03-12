@@ -32,7 +32,7 @@ public class FunctionAndPrediacateAndConsumer {
 		};
 
 		Predicate<Student> p1 = s ->s.getMarks()>=35;
-		//Predicate<Student> p2 = s->s.getMarks()<34;
+		 
 		
 		Consumer<Student> c=sc->{
 			 System.out.println("Name" +"===" +sc.getName());
